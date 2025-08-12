@@ -20,7 +20,7 @@ const FormData = () => {
     }
 
     try {
-      const response = await fetch("http://127.0.0.1:5000/api/data", {
+      const response = await fetch("https://flower-backend-75ad.onrender.com/api/data", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify(formData),

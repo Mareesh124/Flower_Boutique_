@@ -7,8 +7,8 @@ const page = () => {
     <div className="w-full min-h-screen">
       {/* Heading Section */}
       <div className="px-6 pt-4 md:pl-32">
-        <h1 className="text-4xl md:text-5xl text-amber-500">Service Page</h1>
-        <p className="text-lg md:text-xl mt-1">Explore our services and offerings.</p>
+        <h1 className="text-4xl text-center md:text-5xl text-amber-500">Service Page</h1>
+        <p className="text-lg text-center md:text-xl mt-1">Explore our services and offerings.</p>
       </div>
 
       {/* Cards Section */}
